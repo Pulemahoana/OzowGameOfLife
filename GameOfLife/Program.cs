@@ -20,7 +20,7 @@ namespace GameOfLife
             objLifeGame.ToggleGridCell(0, 7);
             objLifeGame.ToggleGridCell(0, 8);
             objLifeGame.ToggleGridCell(0, 9);
-            objLifeGame.MaxGenerations = 50;
+            objLifeGame.MaxGenerations = 10;
             objLifeGame.Init();
 
             Console.ReadKey();            
